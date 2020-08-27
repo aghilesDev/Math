@@ -7,7 +7,7 @@ class TestMap:
         print('start')
 
     def teardown_method(self):
-        self.x = None
+        self.x =None
         print('end')
 
     @pytest.mark.parametrize(
